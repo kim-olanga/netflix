@@ -26,17 +26,19 @@ h5{
 h6{
     color: white;
 }
+.column{
+    background-image: url(./images/background_netflix.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .logo{
     position: fixed;
-    
+    image-resolution: 15PX;
 }
 .button{
     float: right;
     font-weight: bolder;
     margin-top: 5px;
-}
-.column{
-    background-attachment:local;
 }
 .container{
     text-align: center;

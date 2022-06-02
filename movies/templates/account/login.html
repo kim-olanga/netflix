@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends '../base.html' %}
     {% load static %}
     {% block title %}
     
@@ -10,7 +10,6 @@
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     {% endblock others %}
 {% block content %}
-
    
     {% include 'navbar.html' with AUTH='false' %}
     <header>
@@ -22,10 +21,7 @@
                 {% csrf_token %}
                 
                 {% if form.errors %}
-                
                 <div class=" text-center my-4 text-primary_red">
-                
-                
                 
                 <p class="text-primary_red ">
                     
