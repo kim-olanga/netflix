@@ -10,9 +10,7 @@
 {% endblock others %}
 
 {% block content %}
-
-    {% include 'partials/navbar.html' %}
-    <main class='bg-primary_black min-h-screen w-full'>
+    <main class='bg-primary_black min-h-screen w-full' style="background-image:url(/static/images/movie.webp) ;">
         <section class="h-screen relative bg-no-repeat pb-8 pl-6 flex  items-end bg-cover" style="background-image: url('{{movie.flyer.url}}');">
             <div>
                 <h2 class="text-6xl font-semibold text-white my-4">
