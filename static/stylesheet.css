@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style:italic;
+    font-size: large;
+    font-weight:900;
+    
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+h3{
+    color: white;
+}
+h4{
+    color: white;
+}
+h5{
+    color: white;
+}
+h6{
+    color: white;
+}
+.logo{
+    position: fixed;
+    
+}
+.button{
+    float: right;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+.column{
+    background-attachment:local;
+}
+.container{
+    text-align: center;
+    font-weight: bolder;
+}
+.row{
+    text-align: center;
+    font-weight: 900;
+}
+.sign{
+    float: right;
+    color: red;
+}
+.image{
+    flex-direction:column;
+}
+.footer{
+    color: white;
+    text-align: center;
+}
+
+
+
+
+/* @-webkit-keyframes spin{
+    to{
+      transform: rotate(360deg);
+    }
+}
+  
+@keyframes spin{
+    to{
+      transform: rotate(360deg);
+    }
+}
+  
+@-webkit-keyframes ping{
+    75%, 100%{
+      transform: scale(2);
+      opacity: 0;
+    }
+}
+  
+@keyframes ping{
+    75%, 100%{
+      transform: scale(2);
+      opacity: 0;
+    }
+}
+  
+@-webkit-keyframes pulse{
+    50%{
+      opacity: .5;
+    }
+}
+  
+@keyframes pulse{
+    50%{
+      opacity: .5;
+    }
+}
+  
+@-webkit-keyframes bounce{
+    0%, 100%{
+      transform: translateY(-25%);
+      -webkit-animation-timing-function: cubic-bezier(0.8,0,1,1);
+              animation-timing-function: cubic-bezier(0.8,0,1,1);
+    }
+  
+    50%{
+      transform: none;
+      -webkit-animation-timing-function: cubic-bezier(0,0,0.2,1);
+              animation-timing-function: cubic-bezier(0,0,0.2,1);
+    }
+}
+  
+@keyframes bounce{
+    0%, 100%{
+      transform: translateY(-25%);
+      -webkit-animation-timing-function: cubic-bezier(0.8,0,1,1);
+              animation-timing-function: cubic-bezier(0.8,0,1,1);
+    }
+  
+    50%{
+      transform: none;
+      -webkit-animation-timing-function: cubic-bezier(0,0,0.2,1);
+              animation-timing-function: cubic-bezier(0,0,0.2,1);
+    }
+} */
