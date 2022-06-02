@@ -15,7 +15,7 @@ MOVIE_CHOICES=(
 
 # Create your models here.
 class User(models.Model):
-    profiles = models.ManyToManyField('profile',null=True,blank=True)
+    profiles = models.ManyToManyField('profile',blank=True)
 
     def __str__(self):
         return self.profiles
@@ -43,7 +43,7 @@ class Movie(models.Model):
 
 class Video(models.Model):
     title = models.CharField(max_length=300,blank=True,null=True)
-    file = models.FieldFile(upload_to='movie')
+    # file = models.FieldFile(upload_to='movie')
 
     def __str__(self):
         return self.title
