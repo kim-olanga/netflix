@@ -31,7 +31,7 @@ If you encounter any bugs, please feel free to document it or reach out.
 - 0700429846
 
 # Technologies Used
--HTML
+- HTML
 - CSS
 - JAVASCRIPT
 - Django
