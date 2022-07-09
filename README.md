@@ -1,11 +1,6 @@
 # Project Name.
 - Netlix
 
-# Author.
-- Maureen Ndiema
-- David Musembi
-- Kimberly Olanga
-
 # Description
 - This website will enable people log into their netflix accounts, view displayed movies, search for particular movies and leave comments. 
 
@@ -25,11 +20,6 @@
 # Known Bugs
 If you encounter any bugs, please feel free to document it or reach out.
 
-# Contacts
-- Kimberly Eve Olanga
-- kimeve123@gmail.com
-- 0700429846
-
 # Technologies Used
 - HTML
 - CSS
@@ -37,6 +27,11 @@ If you encounter any bugs, please feel free to document it or reach out.
 - Django
 - Python
 - Bootstrap
+
+# Author.
+- Kimberly Eve Olanga
+- kimolanga123@gmail.com
+- 0700429846
 
 # Copyright and Licence
 - MIT License
